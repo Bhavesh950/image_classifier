@@ -25,7 +25,7 @@ def classify(image, model, processor):
 
 
 # Streamlit UI
-st.title("🖼️ Hugging Face Image Classifier")
+st.title("🖼️ VisionSnap Image Classifier")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
 
