@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 from transformers import ViTFeatureExtractor, ViTForImageClassification
+from transformers import ViTImageProcessor, ViTForImageClassification
 import torch
 
 # Load model and processor
